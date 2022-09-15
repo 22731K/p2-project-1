@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form achtion="boekingsformulier.html">
+        <div>
+        <label for="name">Voornaam:</label><br>
+        <input type="text" required pattern="[a-zA-Z]*" id="fname" name="fname"><br>
+        </div>
+        <div>
+        <label for="lname">Achternaam:</label><br>
+        <input type="text" required pattern="[a-zA-Z]*" id="lname" name="lname"><br>
+        </div>
+        <div>
+        <label for="gender">Geslacht:</label><br>
+        <input type="text" id="gender" name="gender" placeholder="Man"><br>
+        </div>
+        <div>
+        <label for="adress">Adres en huisnummer</label><br>
+        <input type="text" id="adress" name="adress">
+        <input type="number" id="huisnummer" name="huisnummer" placeholder="1234"><br>
+        </div>
+        <div>
+        <label for="postcode">postcode</label><br>
+        <input type="text" id="postcode" name="postcode"><br>
+        </div>
+        <div>
+        <label for="City">Stad</label><br>
+        <input type="text" id="city" required pattern="[a-zA-Z]*" name="city"><br>
+        </div>
+        <div>
+        <label for="country">Land</label><br>
+        <input type="text" id="country" required pattern="[a-zA-Z]*" name="country"><br>
+        </div>
+        <div>
+        <label for="BSN">BSN-nummer</label><br>
+        <input type="nummer" id="BSN" name="BNS" maxlength="9"><br>
+        </div>
+        <div>
+        <label for="travel country">Vakantieland</label><br>
+        <input list="travel country" name="travel country">
+        <datalist id="travel country">
+            <option value="Spanje"></option>
+            <option value="Frankrijk"></option>
+            <option value="Nederland"></option>
+        </datalist><br>
+       </div>
+       <div>
+        <label for="Datum">Datum van Vertrek en Terug</label><br>
+        <input type="data" id="datum" name="datum" min="2022-9-15">
+        <input type="data" id="datum" name="datum" min="2022-9-16"><br>
+        </div>
+        <div>
+        <label for="traveling companions">Reisgenoten</label>
+        <input type="number" id="traveling companions" name="traveling companions" min="0" max="4"><br>
+        </div>
+        <div>
+        <label for="e-mail">E-mail:</label>
+        <input type="email" name="e-mail" placeholder="1234@gmail.com"><br>
+        </div>
+        <div>
+        <label for="password">Wachtwoord:</label>
+        <input type="password" name="password"><br>
+        </div>
+        <input type="submit" value="Boek nu">
+    </form>
+</body>
+</html>
