@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    flex-direction: row;
+    margin-left: 100px;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.black{
+    background-color: black;
+}
+.green{
+    background-color: green;
+}

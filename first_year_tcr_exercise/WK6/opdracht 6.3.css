@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+nav {
+    width: 100vw;
+   margin-left: 120px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+    color: blue;
+    list-style-type: none;
+    font-size: 20px;
+}
+div{
+    width: 50vw;
+    display: flex;
+}
+div li{
+    margin-left: 20px;
+}
+.Logo{
+    width: 25vw;
+}
+.Login{
+    width: 25vw;
+}
