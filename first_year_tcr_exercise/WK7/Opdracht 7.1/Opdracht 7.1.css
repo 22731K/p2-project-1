@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    margin-top: 0px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 10vh;
+    
+}
+
+nav p{
+    font-size: large;
+    color: white;
+}
+section{
+    width: 100vw;
+    min-height: 30vh;
+}
+    
+header{
+    background-color: red;
+}
+.Title-one{
+    background-color: yellow;
+}
+.Title-two{
+    background-color: orange;
+}
+.Title-three{
+    background-color: green;
+}
+
+@media only screen and (max-width:1024px){
+    h1{
+        color: white;
+    }
+    p{
+        color: white;
+    }
+    nav{
+        justify-content: center;
+    }
+    header{
+        background-color: rgb(203, 8, 203);
+    }
+    .Title-one{
+        background-color:red;
+    }
+    .Title-two{
+        background-color: rgb(149, 0, 248);
+    }
+    .Title-three{
+        background-color: blue;
+    }
+}
+@media only screen and (max-width:767px) {
+    section{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    nav{
+        justify-content: space-around;
+    }
+    header{
+        background-color: rgb(115, 8, 255);
+    }
+    .Title-one{
+        background-color:rgb(2, 230, 255);
+    }
+    .Title-two{
+        background-color: rgb(203, 0, 248);
+    }
+    .Title-three{
+        background-color: blue;
+    }
+}
+@media only screen and (min-width:767px){
+    .menu{
+        display: none;
+    }
+}
+@media only screen and (min-width:1025px){
+    nav{
+    justify-content:start
+    }
+}
